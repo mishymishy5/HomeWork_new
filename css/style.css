@@ -1,0 +1,70 @@
+/*header/navigation section style */
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo p {
+width: 23%
+padding: 1%;
+/*blue background color*/
+}
+
+.logo p {
+    display: inline-block;
+
+}
+p {
+    display: inline-block;
+}
+/*Navigation section Style*/
+nav {
+    width: 72%;
+    padding: 1%;
+    background-color: rgb(0, 217, 255)
+}
+nav ul {
+    /*width: 50%;
+    margin-left: auto;*/
+    float: right;
+}
+.heroImg {
+    height: 600px;
+    padding: 25px;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+    text align: center;
+}
+footer {
+    background-color: rgb(0, 136, 255);
+    padding: 20px 0px;
+}
+
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer ul li {
+    padding: 5px 10 px;
+}
+
+.flexContainer div {
+    width: 33%;
+    padding: 24px;
+}
+
+.myWork {
+    display: grid;
+    grid-template-areas:
+        "project1_image project1_content"
+        "project2_image project2_content" 
+    ;
+}
+
+.project1_img {
+    grid-area: ;
+}
